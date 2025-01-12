@@ -9,3 +9,10 @@ scanner: main.c scan.c
 clean:
 	rm -f scanner *.o
     
+
+
+AST=Abstract Syntax Tree
+malloc = memory allocation
+
+
+A parser recognises the grammar of the language and checks that the input to the compiler conforms to this grammar. If it doesn't, the parser should print out an error message. As our expression grammar is recursive, we have chosen to write a recursive descent parser to recognise our expressions.

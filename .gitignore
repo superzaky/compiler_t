@@ -1,1 +1,10 @@
-scanner.exe
+#IDE's 
+.cproject
+.project
+language.settings.xml
+
+#VS Code
+settings.json
+
+#Executables
+*.exe
